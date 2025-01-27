@@ -12,7 +12,7 @@ function HeaderComp() {
     };
 
     return (
-        <header className="min-h-[10vh] md:min-h-[17vh] flex items-center justify-between px-4 md:px-0 md:max-w-[1200px] md:mx-auto md:border-b border-b-stone-300">
+        <header className="min-h-[10vh] md:min-h-[17vh] flex items-center justify-between px-4 md:max-w-[1200px] md:mx-auto md:border-b border-b-stone-300 ">
             <div className="flex items-center gap-6 lg:gap-12">
                 <MenuSVG
                     onClick={menuClick}
